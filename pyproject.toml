@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "smtlib-metrics"
+version = "0.1.0"
+description = ""
+authors = ["Soaibuzzaman <soaibuzzaman@uni-weimar.de>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+numpy = "^2.2.5"
+z3-solver = "^4.15.0.0"
+matplotlib = "^3.10.3"
+seaborn = "^0.13.2"
+scipy = "^1.15.3"
+statsmodels = "^0.14.4"
+levenshtein = "^0.27.1"
+scikit-learn = "^1.6.1"
+sexpdata = "^1.0.2"
+jinja2 = "^3.1.6"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
