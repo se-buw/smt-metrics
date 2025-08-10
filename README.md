@@ -42,7 +42,25 @@ Otherwise, you can run the main script `main.py` to run all the analysis scripts
 ## Results
 The preliminary results are stored in the `results` folder.
 
+## BibTeX Citation
 
+We would appreciate using the following citations:
+
+```
+@inproceedings{SoaibuzzamanSMT25,
+  author       = {Soaibuzzaman and Jan Oliver Ringert},
+  editor       = {Jochen Hoenicke and Mikoláš Janota and Aina Niemetz and Sophie Tourret},
+  title        = {On Writing SMT-LIB Scripts: Metrics and a New Dataset},
+  booktitle    = {23rd International Workshop on Satisfiability Modulo Theories, SMT
+                  2025, Glasgow, UK, August 10–11, 2025, Proceedings},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {4008},
+  pages        = {91-102},
+  publisher    = {CEUR-WS.org},
+  year         = {2025},
+  url          = {https://ceur-ws.org/Vol-4008/SMT_paper15.pdf},
+}
+```
 
 ## License
 This repository is licensed under the MIT License. Please see the LICENSE file for more details.
